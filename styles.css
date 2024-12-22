@@ -1,0 +1,74 @@
+body 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vw auto;
+    font-family: Arial, sans-serif;
+    background-color: #faf0d0;
+}
+
+#board 
+{
+    display: grid;
+    margin: auto;
+    max-width: 80%; 
+}
+
+.cell 
+{
+    width: 3vw; 
+    height: 3vw;  
+    border: 1px solid #96a7ba;
+    text-align: center;
+    font-size: 2vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.flag 
+{
+    background-color: yellow;
+}
+
+.opened 
+{
+    background-color: #c8d6e9;
+}
+
+.mine 
+{
+    background-color: red;
+    color: white;
+}
+
+.number 
+{
+    color: green;
+}
+
+#message 
+{
+    display: none;
+    position: absolute;
+    top: 5vw;
+    left: 50%;
+    width:  fit-content;
+    transform: translate(-50%, -50%);
+    background-color: #96a7ba;
+    color: white;
+    padding: 2vw;
+    border-radius: 10px;
+    font-size: 2vw;
+    text-align: center;
+}
+
+h1 
+{
+    color: #6a86a5;
+}
+
